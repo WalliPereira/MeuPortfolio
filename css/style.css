@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 
-.logo {
+.logo{
     max-width: 100px;
 }
 
@@ -8,35 +8,42 @@
     font-family: "Madimi One", sans-serif;
     font-weight: 400;
     font-style: normal;
-}
+  }
 
-.madimi-one-regular h3 {
+.madimi-one-regular h3{
     font-size: 1.5em;
 }
 
-.cabecalho {
-    margin-top: 5em;
-    margin-bottom: 1em;
+.cabecalho{
+    
+    margin-top: 3em;
+    margin-bottom: 2em;
 }
 
-.cabecalho h1 {
-    font-weight: 800;
+.cabecalho h1{
+    font-weight: 700;
     color: rgb(87, 87, 87);
     font-size: 3em;
-    font-family: Madimi One", sans-serif;
-
+    font-family: "Madimi One", sans-serif;
 }
 
-.cabecalho p {
+.cabecalho p{
     color: rgb(44, 44, 44);
     font-size: 1em;
     font-weight: 500;
+} 
+
+.card{
+    width: 45em;
+    border-radius: 20px;
+    border: none;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.card {
-    width: 45em;
-    height: 19em;
-    border-radius: 20%;
+.card-img-top{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .tempo-texto {
@@ -47,7 +54,7 @@
 }
 
 .rodape a {
-    text-decoration: none;
+    text-decoration: none; 
 }
 
 .rodape a:hover {
